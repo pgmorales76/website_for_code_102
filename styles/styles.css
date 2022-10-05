@@ -1,0 +1,51 @@
+/* Styling for the body element */
+body {
+    background-color: #7E98B5;
+    color: #1F2A37;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #1F2A37;
+    font-size: 2.6em;
+    border-bottom: 5px solid #1F2A37;
+}
+
+ul {
+    background-color: #D3B299;
+    border: 5px solid #1F2A37;
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 1.3em;
+}
+
+li {
+    float: left;
+    display: block;
+    padding: 9px;
+    text-decoration: none
+}
+
+form {
+    float: right;
+    margin: 0.6%;
+}
+
+a:link,
+a:visited {
+    color: #a211eb;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(7, 211, 48);
+}
+
+p {
+    text-align: left;
+}
+
+footer p {
+    text-align: center;
+}
