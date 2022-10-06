@@ -7,11 +7,5 @@ if (favorite_author.toLowerCase() == "ayn rand") {
     console.log("Great choice!")
 }
 
-<script>
-
-    var name = prompt("Your name:", "");
-    document.write("Hello !", name);
-
-</script>
 
 /* https://pgmorales76.github.io/website_for_code_102/scripts/app.js */
