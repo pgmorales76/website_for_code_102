@@ -12,7 +12,5 @@ document.querySelector("html").addEventListener("click", function () {
       myImage.setAttribute("src", "/Users/peterg.morales/Documents/code_fellows/projects/courses/102/website_for_code_102/website_for_code_102/images/firefox_logo_nightly.png");
     }
   };
-  
-  
 
 /* https://pgmorales76.github.io/website_for_code_102/scripts/scripts.js */
