@@ -6,11 +6,13 @@ document.querySelector("html").addEventListener("click", function () {
 
   myImage.onclick = () => {
     const mySrc = myImage.getAttribute("src");
-    if (mySrc === "images/firefox-icon.png") {
-      myImage.setAttribute("src", "/Users/peterg.morales/Documents/code_fellows/projects/courses/102/website_for_code_102/website_for_code_102/images/firefox_logo_developer_edition.png");
+    if (mySrc === "/images/firefox_logo_developer_edition.png") {
+      myImage.setAttribute("src", "/images/firefox_logo_nightly.png");
     } else {
-      myImage.setAttribute("src", "/Users/peterg.morales/Documents/code_fellows/projects/courses/102/website_for_code_102/website_for_code_102/images/firefox_logo_nightly.png");
+      myImage.setAttribute("src", "/images/firefox_logo_developer_edition.png");
     }
   };
+
+
 
 /* https://pgmorales76.github.io/website_for_code_102/scripts/scripts.js */
