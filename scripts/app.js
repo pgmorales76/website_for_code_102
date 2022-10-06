@@ -4,14 +4,14 @@ let favorite_author = prompt("Who is your favorite author?");
 if (favorite_author.toLowerCase() == "ayn rand") {
     console.log("Me, too!!!")
 } else {
-        console.log("Great choice!")
+    console.log("Great choice!")
 }
 
 <script>
- 
- var name = prompt("Your name:", "");
- document.write("Hello !", name);
-  
- </script>
+
+    var name = prompt("Your name:", "");
+    document.write("Hello !", name);
+
+</script>
 
 /* https://pgmorales76.github.io/website_for_code_102/scripts/app.js */
