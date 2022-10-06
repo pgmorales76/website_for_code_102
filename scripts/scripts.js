@@ -1,5 +1,5 @@
 document.querySelector("html").addEventListener("click", function () {
-    alert("Ouch! Stop poking me!");
+    alert("Watch the image change!");
   });
 
   const myImage = document.querySelector("img");
