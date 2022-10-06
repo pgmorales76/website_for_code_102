@@ -6,10 +6,10 @@ document.querySelector("html").addEventListener("click", function () {
 
   myImage.onclick = () => {
     const mySrc = myImage.getAttribute("src");
-    if (mySrc === "/") {
-      myImage.setAttribute("src", "/images/firefox_logo_nightly.png");
+    if (mySrc === "/Users/peterg.morales/Documents/code_fellows/projects/courses/102/website_for_code_102/website_for_code_102/images/firefox_logo_developer_edition.png") {
+      myImage.setAttribute("src", "/Users/peterg.morales/Documents/code_fellows/projects/courses/102/website_for_code_102/website_for_code_102/images/firefox_logo_nightly.png");
     } else {
-      myImage.setAttribute("src", "/images/firefox_logo_developer_edition.png");
+      myImage.setAttribute("src", "/Users/peterg.morales/Documents/code_fellows/projects/courses/102/website_for_code_102/website_for_code_102/images/firefox_logo_developer_edition.png");
     }
   };
 
