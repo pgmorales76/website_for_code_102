@@ -11,19 +11,32 @@ h1 {
     border-bottom: 5px solid #1F2A37;
 }
 
-ul {
+nav, aside ul {
     background-color: #D3B299;
     border: 5px solid #1F2A37;
     list-style-type: none;
     overflow: hidden;
     font-size: 1.3em;
+    width: 90%;
+    margin: auto;
+}
+
+nav ul {
+    width: 90%;
+    float: left;
+}
+
+ul {
+    width: 70%;
+    display: flex;
 }
 
 li {
     float: left;
     display: block;
     padding: 9px;
-    text-decoration: none
+    text-decoration: none;
+    margin: auto;
 }
 
 form {
@@ -48,5 +61,3 @@ p {
 footer p {
     text-align: center;
 }
-
-/* https://pgmorales76.github.io/website_for_code_102/styles/styles.css */
