@@ -11,7 +11,9 @@ function how_many_books() {
         } else {
                 message = "That amount can't be true!";
         }
-}
+};
+
+how_many_books();
 
 function favorite_genre() {
         let genre = prompt("Is your favorite genre mystery, science fiction, or horror?");
@@ -24,7 +26,9 @@ function favorite_genre() {
         } else if (author.toLowerCase() == "horror") {
                 document.write("That's scary!");
         }
-}
+};
+
+favorite_author();
 
 function favorite_author() {
         let author = prompt("Is your favorite author Ayn Rand, Michael Crichton, or Walter Tevis?");
@@ -39,6 +43,8 @@ function favorite_author() {
         } else {
                 message = "That was't a choice! Try again!";
         }
-}
+};
+
+favorite_author();
 
 /* https://pgmorales76.github.io/website_for_code_102/scripts/app_1.js */
