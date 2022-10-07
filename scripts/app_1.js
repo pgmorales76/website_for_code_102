@@ -10,7 +10,7 @@ function how_many_books() {
                 message = "Wow! I thought I read a lot!!!";
         } else {
                 message = "That amount can't be true!";
-        } 
+        }
         return message;
 };
 
