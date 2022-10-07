@@ -1,0 +1,5 @@
+if (confirm("Shall I print Hello World?")) {
+    document.write("Hello World");
+} else {
+    document.write("OK, I won't print it.");
+}
