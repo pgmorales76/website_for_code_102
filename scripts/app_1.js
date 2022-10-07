@@ -10,7 +10,8 @@ function how_many_books() {
                 message = "Wow! I thought I read a lot!!!";
         } else {
                 message = "That amount can't be true!";
-        }
+        } 
+        return message;
 };
 
 how_many_books();
@@ -26,6 +27,7 @@ function favorite_genre() {
         } else if (author.toLowerCase() == "horror") {
                 document.write("That's scary!");
         }
+        return message;
 };
 
 favorite_author();
@@ -43,6 +45,7 @@ function favorite_author() {
         } else {
                 message = "That was't a choice! Try again!";
         }
+        return message;
 };
 
 favorite_author();
