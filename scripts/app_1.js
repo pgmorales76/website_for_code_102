@@ -2,10 +2,6 @@ function how_many_books() {
         let number = prompt("How many books have you read this year? (Use numbers, please!)");
         let message;
 
-        if (x == "") {
-                alert("That's not a vaild number, silly! C'mon, tell me!");
-                return false;
-        }
         if (number <= 2) {
                 message = "Seriously? You gotta stop binge-watching!!!";
         } else if (number <= 10) {
