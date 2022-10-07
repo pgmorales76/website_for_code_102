@@ -2,7 +2,9 @@ let favorite_author = prompt("Who is your favorite author?");
 // console.log(favorite_author);
 
 if (favorite_author.toLowerCase() == "ayn rand") {
-    console.log("Me, too!!!")
+    document.write("Me, too!!!")
 } else {
-    console.log("Great choice!")
+    document.write("Great choice!")
 }
+
+/* https://pgmorales76.github.io/website_for_code_102/scripts/app_2.js */
