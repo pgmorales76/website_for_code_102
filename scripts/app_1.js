@@ -49,5 +49,3 @@ function favorite_author() {
 };
 
 favorite_author();
-
-/* https://pgmorales76.github.io/website_for_code_102/scripts/app_1.js */
