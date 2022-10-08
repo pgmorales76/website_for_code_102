@@ -18,8 +18,6 @@ function how_many_books() {
         return message;
 };
 
-how_many_books();
-
 function favorite_genre() {
         let genre = prompt("Is your favorite genre mystery, science fiction, or horror?");
         let message;
@@ -37,8 +35,6 @@ function favorite_genre() {
         }
         return message;
 };
-
-favorite_author();
 
 function favorite_author() {
         let author = prompt("Is your favorite author Ayn Rand, Michael Crichton, or Walter Tevis?");
@@ -59,5 +55,3 @@ function favorite_author() {
         }
         return message;
 };
-
-favorite_author();
