@@ -59,6 +59,11 @@ function favorite_author() {
 function display_rating() {
         let output = '';
         let rating = prompt('On a scale of 1-5, how many stars would you give this webpage?');
+
+        if (x == "") {
+                alert("That's not a vaild number, silly! C'mon, tell me!");
+                return false;
+        }
         for(let i = 0; i < rating; i++){
             output += "<img src='/images/star.png' />";
         }
