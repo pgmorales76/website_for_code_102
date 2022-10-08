@@ -5,7 +5,7 @@ function how_many_books() {
         if (x == "") {
                 alert("That's not a vaild number, silly! C'mon, tell me!");
                 return false;
-        }
+        };
         if (number <= 2) {
                 message = "Seriously? You gotta stop binge-watching!!!";
         } else if (number <= 10) {
@@ -14,7 +14,7 @@ function how_many_books() {
                 message = "Wow! I thought I read a lot!!!";
         } else {
                 message = "That amount can't be true!";
-        }
+        };
         return message;
 };
 
@@ -25,14 +25,14 @@ function favorite_genre() {
         if (x == "") {
                 alert("That's not a genre, silly! C'mon, tell me!");
                 return false;
-        }
+        };
         if (genre.toLowerCase() == "mystery") {
                 document.write("What a mysterious answer!");
         } else if (author.toLowerCase() == "science fiction") {
                 document.write("Nerd alert!");
         } else if (author.toLowerCase() == "horror") {
                 document.write("That's scary!");
-        }
+        };
         return message;
 };
 
@@ -52,7 +52,7 @@ function favorite_author() {
                 document.write("Would you like to play chess?");
         } else {
                 message = "That was't a choice! Try again!";
-        }
+        };
         return message;
 };
 
@@ -60,13 +60,9 @@ function display_rating() {
         let output = '';
         let rating = prompt('On a scale of 1-5, how many stars would you give this webpage?');
 
-        if (x == "") {
-                alert("That's not a vaild number, silly! C'mon, tell me!");
-                return false;
-        }
         for(let i = 0; i < rating; i++){
             output += "<img src='/images/star.png' />";
-        }
+        };
         document.write(rating);
         return document.write(output);
-    }
+};
