@@ -2,7 +2,7 @@ function how_many_books() {
         let number = prompt("How many books have you read this year? (Use numbers, please!)");
         let message;
 
-        if (x == "") {
+        if (number == "") {
                 alert("That's not a vaild number, silly! C'mon, tell me!");
                 return false;
         };
@@ -22,7 +22,7 @@ function favorite_genre() {
         let genre = prompt("Is your favorite genre mystery, science fiction, or horror?");
         let message;
 
-        if (x == "") {
+        if (genre == "") {
                 alert("That's not a genre, silly! C'mon, tell me!");
                 return false;
         };
@@ -40,11 +40,12 @@ function favorite_author() {
         let author = prompt("Is your favorite author Ayn Rand, Michael Crichton, or Walter Tevis?");
         let message;
 
-        if (x == "") {
+        if (author == "") {
                 alert("Who is that? C'mon, tell me!");
-                return false;
+                // return false;
+                favorite_author();        
         }
-        if (author.toLowerCase() == "ayn rand") {
+        else if (author.toLowerCase() == "ayn rand") {
                 document.write("Who is John Galt?");
         } else if (author.toLowerCase() == "michael crichton") {
                 document.write("Because . . . everything looks different . . . on the other side.");
@@ -52,6 +53,7 @@ function favorite_author() {
                 document.write("Would you like to play chess?");
         } else {
                 message = "That was't a choice! Try again!";
+                favorite_author();
         };
         return message;
 };
