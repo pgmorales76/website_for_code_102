@@ -58,13 +58,20 @@ function favorite_author() {
         return message;
 };
 
+function can_you_dig_it(){
+        let response = prompt("Do you like this page (yes/no)?");
+        while (response !== "yes"){
+                response = prompt("Oh, c'mon! Be nice! Do you like this page (yes/no)?")
+        }
+};
+
 function display_rating() {
         let output = '';
         let rating = prompt('On a scale of 1-5, how many stars would you give this webpage?');
 
-        for(let i = 0; i < rating; i++){
-            output += "<img src='images/star.png' />";
+        for(let i = 1; i <= rating; i++){
+            output += "<img class='star' src='images/star.png' />";
+            output += i
         };
-        document.write(rating);
         return document.write(output);
 };
