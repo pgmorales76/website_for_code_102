@@ -61,3 +61,7 @@ p {
 footer p {
     text-align: center;
 }
+
+.star {
+    width: 100px;
+}
