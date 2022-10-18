@@ -1,3 +1,5 @@
+'use strict';
+
 function how_many_books() {
         let number = prompt("How many books have you read this year? (Use numbers, please!)");
         let message;
